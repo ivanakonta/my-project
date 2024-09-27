@@ -154,6 +154,7 @@
           }
           else{
             alert("Successfully Saved");
+            this.$router.push('/taskshow');
           }
   
         }).catch(()=>{
