@@ -71,9 +71,9 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
           <img src="/Images/Nerd-rafiki.svg" alt="Nerd" />
-        </div>
+        </div> -->
       </div>
     </div>
   </template>
@@ -154,7 +154,7 @@
           }
           else{
             alert("Successfully Saved");
-            this.$router.push('/taskshow');
+            this.$router.push('/');
           }
   
         }).catch(()=>{
